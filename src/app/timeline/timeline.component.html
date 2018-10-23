@@ -1,0 +1,17 @@
+<mgl-timeline class="col-1-4">
+    <mgl-timeline-entry *ngFor="let timelinedata of timelinedata">
+        <mgl-timeline-entry-header>{{timelinedata.title}}</mgl-timeline-entry-header>
+        <mgl-timeline-entry-content>
+        	<div>
+        		<div class="small-image"> </div>
+        		<div class="detail">{{timelinedata.detail}}</div>
+        	</div>
+					<div class="center">
+						<a routerLink="{{timelinedata.link}}">
+							<button mat-raised-button>Explore</button>
+						</a>
+					</div>
+				</mgl-timeline-entry-content>
+        <mgl-timeline-entry-dot></mgl-timeline-entry-dot>
+    </mgl-timeline-entry>
+</mgl-timeline>

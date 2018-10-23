@@ -1,0 +1,7 @@
+<div class="dashboard">
+<mat-grid-list cols="2" rowHeight="2:1">
+  <a routerLink="/timeline">
+  	<mat-grid-tile class="question" *ngFor="let question of questions"><h4>{{question.question}}</h4></mat-grid-tile>
+  </a>
+</mat-grid-list>
+</div>
