@@ -1,0 +1,23 @@
+.nav-card {
+  width: 10%;
+	background-color:white;
+	border-radius: 6%; 
+	margin:1%;
+	float: left;
+}
+
+.nav-card-image {
+	text-align:center;
+	width: 100%;
+	border-radius:6%;
+}
+
+.nav-card-title {
+	padding: 0 2%;
+	font-weight:bold;
+
+}
+
+.nav-card-text {
+	padding: 0 2%;
+}

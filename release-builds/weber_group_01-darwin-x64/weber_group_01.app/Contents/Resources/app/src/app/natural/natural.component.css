@@ -1,0 +1,46 @@
+.section-title {
+	  color: #FFFFFFc7;
+    font-weight: 500;
+    letter-spacing: .2em;
+    font-size: 6em;
+    width: 100%;
+    padding-left: 3%;
+    padding-top: 3.7%;
+    position: absolute;
+    font-family: cora;
+}
+
+.transporation {
+	background-color: #00f7ff;
+}
+
+.culture {
+  background-color: #f7b60f;
+}
+
+.economy {
+  background-color: #dc5123;
+}
+
+.natural {
+  background-color: #4d7a47;
+}
+
+.section-title-bar {
+	width: 100%;
+	opacity: .8;
+	height: 60%;
+	position: absolute;
+  background-color: #4d7a47;
+ }
+
+.corner-nav {
+  position: absolute;
+  bottom: -.2%;
+  left: 0;
+  width: 13%;
+}
+
+.corner-nav img {
+	width:100%;
+}

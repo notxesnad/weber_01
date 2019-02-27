@@ -1,0 +1,21 @@
+<mat-grid-list cols="18" rowHeight="18:14" style="background-image:url(../assets/images/background_explore.jpg); background-size:100% 100%;">
+  <mat-grid-tile
+    [colspan]="18"
+    [rowspan]="2">
+    <div class="section-title-bar {{sectionTitle}}" ></div>
+    <div class="section-title">{{sectionTitle | uppercase}}</div>
+  </mat-grid-tile>
+  <mat-grid-tile
+    [colspan]="18"
+    [rowspan]="8">
+    <app-carousel [slides]="slides" style="width:100%; height:100%; margin:0 10%"></app-carousel>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="18" [rowspan]="3" [style.background]="'#01121b'" >
+    <app-jump-cards style="display: flex; justify-content: center; width: 100%;"></app-jump-cards>
+  </mat-grid-tile>
+</mat-grid-list>
+<div class="corner-nav">
+  <a routerLink="/dashboard">
+    <img src="../assets/images/main-menu.png">
+  </a>
+</div>

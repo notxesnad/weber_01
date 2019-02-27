@@ -1,0 +1,16 @@
+.detail {
+  line-height: 1.5em;
+}
+
+.center {
+  text-align:center;
+  margin: 20px 0 0 0;
+}
+
+.small-image {
+  width:150px; 
+  height:100px; 
+  background-color:#c4c4c7; 
+  float:left;
+  margin:0px 10px 0 10px;
+}

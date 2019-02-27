@@ -1,0 +1,30 @@
+.slideImage {
+    width: 60%;
+    position: absolute;
+    z-index: 10;
+}
+
+.slideImage img {
+    width: 100%;
+}
+
+.carousel-caption {
+    width: 40%;
+    right: 0;
+    left: auto;
+    padding: 4%;
+    /*bottom:auto;*/
+    top: 0;  /* Temproary until scorll bar is added */
+    text-align:left;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    overflow-y: scroll;
+}
+
+.slide-container {
+    position: relative;
+    margin: 0 auto;
+    width:80%;
+}
+

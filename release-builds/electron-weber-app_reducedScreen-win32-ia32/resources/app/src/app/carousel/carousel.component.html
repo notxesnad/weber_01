@@ -1,0 +1,15 @@
+<!--Carousel Wrapper-->
+<mdb-carousel #carousel [isControls]="true" class="carousel slide" [animation]="'slide'" [interval]="0">
+    <!--First slide-->
+    <mdb-carousel-item *ngFor="let slide of slides">
+        <div class="slideImage">
+        	<img src="{{slide.image}}" />
+        </div>
+        <div class="carousel-caption">
+            <h3 class="h3-responsive">{{slide.title}}</h3>
+            <div [innerHTML]="slide.detail"></div>
+        </div>
+    </mdb-carousel-item>
+    <!--/First slide-->
+</mdb-carousel>
+<!--/.Carousel Wrapper-->
